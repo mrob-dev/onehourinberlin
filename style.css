@@ -58,7 +58,7 @@ body {
   border-radius: 4px;
   max-height: 100%;
   height: 90vh;
-  
+  width: 100%;
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
@@ -134,7 +134,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 500px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 @media screen and (max-width: 930px) {
   .left-side {
