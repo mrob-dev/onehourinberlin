@@ -134,11 +134,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 500px;
+  margin-left: 150px;
 }
 @media screen and (max-width: 930px) {
   .left-side {
     text-align: center;
     max-width: 450px;
+    margin-left: 0px;
   }
 }
 
