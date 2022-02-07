@@ -7,7 +7,7 @@ var swiper = new Swiper(".mySwiper", {
   loop: "infinite",
   pagination: {
     el: ".swiper-pagination",
-    type: "fraction" } });
+    type: "scrollbar" } });
 
 
 
