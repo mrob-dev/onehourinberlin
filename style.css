@@ -134,7 +134,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 500px;
-  padding-left: 100px;
+  padding-left: 120px;
 }
 @media screen and (max-width: 930px) {
   .left-side {
