@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  padding: 0 80px;
+  padding: 0 40px;
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
@@ -87,7 +87,8 @@ body {
 .header {
   display: flex;
   align-items: center;
-  height: 62px;
+
+  margin-bottom: 15px;
   width: 100%;
   white-space: nowrap;
   flex-shrink: 0;
@@ -258,7 +259,7 @@ body {
 }
 .center .bottle-img {
   position: absolute;
-  top: 25%;
+  top: 5%;
   left: 0;
   transform: scale(1.6);
 }
@@ -356,7 +357,7 @@ body {
 
 .swiper-slide .main-wrapper > *,
 .swiper-slide .main-content > * {
-  transform: translateY(-30px);
+  transform: translateY(-10px);
   opacity: 0;
   transition-duration: 0.8s;
 }
