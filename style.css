@@ -8,9 +8,6 @@
   --body-color: #2c2d2a;
   --accent-color: #2c2d2a;
   --berlin-blue: #16163f;
-  --glacier-bg: #b6d6c8;
-  --coral-bg: #e86357;
-  --arrow-fill: #333231;
   --body-font: "Montserrat", sans-serif;
   --italic-font: "EB Garamond", serif;
 }
@@ -87,7 +84,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-
   margin-bottom: 15px;
   width: 100%;
   white-space: nowrap;
@@ -238,25 +234,25 @@ body {
     margin-bottom: 56px;
   }
 }
-.center .bottle-bg {
+.center .tour-thumb {
   width: 320px;
   height: 450px;
   object-fit: cover;
   border-radius: 160px;
 }
 @media screen and (max-width: 1200px) {
-  .center .bottle-bg {
+  .center .tour-thumb {
     width: 260px;
     height: 390px;
   }
 }
 @media screen and (max-width: 575px) {
-  .center .bottle-bg {
+  .center .tour-thumb {
     width: 220px;
     height: 340px;
   }
 }
-.center .bottle-img {
+.center .tour-thumb {
   position: absolute;
   top: 5%;
   left: 0;
